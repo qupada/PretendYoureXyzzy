@@ -23,20 +23,8 @@
     <servlet-class>net.socialgamer.cah.servlets.Schema</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>AjaxServlet</servlet-name>
-    <url-pattern>/AjaxServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
     <servlet-name>JavascriptConfigServlet</servlet-name>
     <url-pattern>/js/cah.config.js</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>LongPollServlet</servlet-name>
-    <url-pattern>/LongPollServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>Schema</servlet-name>
-    <url-pattern>/Schema</url-pattern>
   </servlet-mapping>
   <listener>
     <listener-class>net.socialgamer.cah.StartupUtils</listener-class>
